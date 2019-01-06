@@ -100,4 +100,4 @@ client.on('guildBanAdd' , (guild , user) => {
   üyeler.send('Kullanıcı ' + user.username + 'artık sunucumuzdan banlandı.')
 });
 
-client.login(ayarlar.token);
+client.login(process.env.BOT_ADD);
